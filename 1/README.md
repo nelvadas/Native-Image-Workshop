@@ -76,7 +76,7 @@ Create and edit the `src/main/java/primes/PrimesComputer.java` file:
 
 ![User Input](../images/noun_Computer_3477192_100.png)
 ![Java](../images/noun_java_825609_100.png)
-```java
+```bash
 package primes;
 
 import javax.inject.Singleton;
