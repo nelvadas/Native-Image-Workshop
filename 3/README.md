@@ -29,10 +29,10 @@ two parts:
   * Build time
   * Run time.
 * Build Time Intitialised Classes:
-    * Important JDK Class, GC< depotimiser
+    * Important JDK Class, GC & depotimiser
     * Known **safe** classes are initialised at Build Time
 * By default other classes are initialized at runtime
-* But you can initialize at runtime - if you want to
+* But you can initialize at buildtime - if you want to
 
 We will look into this in more detail in the following.
 
