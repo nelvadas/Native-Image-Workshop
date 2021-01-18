@@ -211,7 +211,7 @@ If you are on a mac, then you will need to use the `otool`, as below:
 ![Shell Script](../images/noun_SH_File_272740_100.png)
 ```bash
 # On OsX
-otool -l build/native-image/application
+otool -L build/native-image/application
 ```
 Take a look at its file type:
 
