@@ -11,10 +11,11 @@ import java.util.*;
 @Controller("/primes")
 public class PrimesController {
 
-    private Random r = new Random(41);
+    //private Random r = new Random(41);
 
     @Get("/random/{upperbound}")
     public List<Long> random(int upperbound) {
+        Random r = new Random(41);
         int to = 2 + r.nextInt(upperbound - 2);
         int from = 1 + r.nextInt(to - 1);
 

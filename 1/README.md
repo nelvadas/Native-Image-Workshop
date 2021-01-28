@@ -33,15 +33,15 @@ a fast starting Native Image form this Java application.
 
 First, let's make sure that we have (and they are the latest versions) the tools we need:
 
-- Micronaut ([Install](https://micronaut.io/download.html) Micronaut using SDKMan)
-- GraalVM EE, 20.3.0
+- Micronaut ([Install](https://micronaut.io/download.html) Micronaut using SDKMan), version 2.3.0
+- GraalVM EE, 21.0.0
 
 ![User Input](../images/noun_Computer_3477192_100.png)
 ![Shell Script](../images/noun_SH_File_272740_100.png)
 ```bash
 # Check Micronaut version
 mn --version
-Micronaut Version: 2.2.0
+Micronaut Version: 2.3.0
 ```
 
 ![User Input](../images/noun_Computer_3477192_100.png)
@@ -49,9 +49,9 @@ Micronaut Version: 2.2.0
 ```bash
 # Check Java version
 java --version
-java 11.0.9 2020-10-20 LTS
-Java(TM) SE Runtime Environment GraalVM EE 20.3.0 (build 11.0.9+7-LTS-jvmci-20.3-b06)
-Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.3.0 (build 11.0.9+7-LTS-jvmci-20.3-b06, mixed mode, sharing)
+java version "11.0.10" 2021-01-19 LTS
+Java(TM) SE Runtime Environment GraalVM EE 21.0.0 (build 11.0.10+8-LTS-jvmci-21.0-b06)
+Java HotSpot(TM) 64-Bit Server VM GraalVM EE 21.0.0 (build 11.0.10+8-LTS-jvmci-21.0-b06, mixed mode, sharing)
 ```
 
 ![User Input](../images/noun_Computer_3477192_100.png)
@@ -59,7 +59,7 @@ Java HotSpot(TM) 64-Bit Server VM GraalVM EE 20.3.0 (build 11.0.9+7-LTS-jvmci-20
 ```bash
 # Check that we have Native Image installed as well
 native-image --version
-GraalVM Version 20.3.0 EE (Java Version 11.0.9+7-LTS-jvmci-20.3-b06)
+GraalVM Version 21.0.0 EE (Java Version 11.0.10+8-LTS-jvmci-21.0-b06)
 ```
 
 Now, create the application using Micronaut!

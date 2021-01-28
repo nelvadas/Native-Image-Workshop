@@ -123,6 +123,10 @@ This is not very difficult and in my docker file fo rthe builds I will be refere
 
 Please note that you will need to add your own base image ot the docker file to build this.
 
+Feel free to copy my Dockerfile for building an EE image:
+
+[https://github.com/krisfoster/Dockerfiles/tree/master/graal-ee-ol-base](https://github.com/krisfoster/Dockerfiles/tree/master/graal-ee-ol-base)
+
 --- 
 
 Run the build - we are using a 2-step docker file to do the build:

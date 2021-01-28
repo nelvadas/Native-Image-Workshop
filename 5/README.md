@@ -29,6 +29,10 @@ container:
 ```text
 standard_init_linux.go:211: exec user process caused "exec format error"
 ```
+
+Note: Also currently building staticaly linked images on Mac / OSX is not currently supported, but you can build 
+in Linux on Docker. So if you have a Mac, use the docker builds.
+
 ---
 
 ## Building Our Web Micro-Service

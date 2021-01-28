@@ -5,7 +5,6 @@ public class Main0 {
 
     public static void main(String[] args) {
         A.b.doit();
-
     }
 }
 
